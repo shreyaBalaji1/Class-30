@@ -75,3 +75,10 @@ function mouseDragged(){
 function mouseReleased(){
     slingshot.fly();
 }
+
+function keyPressed() {
+    if(keyCode === 32) {
+        slingshot.attach(bird.body);
+       //bird should get attache to the sling 
+    }
+}
